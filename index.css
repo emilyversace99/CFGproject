@@ -1,0 +1,137 @@
+.MainHeader{
+  font-family: 'Libre Baskerville', serif;
+  font-weight:900;
+  text-align: center;
+  color: #e8973b;
+}
+
+.topnav {
+  font-family: 'Libre Baskerville', serif;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.topnav {
+  background-color: #62b4c7;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 17px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #e8973b;
+  color: white;
+}
+
+.topnav a.split {
+  float: right;
+  background-color: #f2f2f2;
+  color: #e8973b;
+}
+
+.header2{
+  font-family: 'Libre Baskerville', serif;
+  color: #e8973b;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: small;
+}
+
+.explanation {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align:center;
+  color:slategrey;
+  font-size: large;
+  padding-right: 35px;
+  font-style: thin;
+  padding-bottom: 100px;
+}
+
+* {box-sizing: border-box}
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  padding-bottom: 100px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
